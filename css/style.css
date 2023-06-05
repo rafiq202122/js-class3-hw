@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background-color: rgb(83, 242, 221);
+}
+
+.page { 
+    min-height: 200vh;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ddd;
+
+
+}
+
+.quantity input {
+    height: 40px;
+    text-align: center;
+}
+
+.quantity button {
+    width: 40px;
+    height: 40px;
+}
+
+/* COLOR CHANGER STARTS */
+
+#colorChanger {
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* imge animation */
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border: 1px solid red;
+    transition: 0.3s;
+}
+
+.box img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    
+}
+.box .hovered {
+    opacity: 0;
+    transform: scale(1.5);
+}
+
+
+
+
+
